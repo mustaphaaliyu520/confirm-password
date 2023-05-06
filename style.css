@@ -1,0 +1,40 @@
+body
+{
+    min-width: 600px;
+	padding: 2em;
+}
+
+.form-control[type='password']
+{
+	width: 100%;
+}
+
+.password-group .form-control-feedback 
+{ 
+	top: 0; 
+	right: 15px; 
+}
+
+.outerbox
+{
+	border: 2px dashed #ccc;
+	padding: 1em;
+	margin: 1em;
+}
+
+#showPassword
+{
+	font-size: 1.5em;
+	font-weight: bold;
+	border: 1px solid #888;
+	border-radius: 5px;
+	padding: 1em;
+	height: 4em;
+	background: #ccc;
+	color: #000;	
+}
+
+.help-block.with-errors
+{
+	height: 2em;
+}
